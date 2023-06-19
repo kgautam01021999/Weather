@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("https://miro.medium.com/max/1400/1*GsImz-edoeuqCMfKxDus0w.jpeg")  ;
+}
+.card{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 1px 9px 2px rgb(53, 52, 52);
+    margin-top: 3rem;
+    /* border:  2px red solid; */
+}
+.innerpart:Hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.innerpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allCard{
+    display: flex;
+    column-gap: 3rem;
+    width: 80rem;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px red solid; */
+}
